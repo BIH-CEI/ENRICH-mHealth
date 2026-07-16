@@ -74,17 +74,18 @@ Alias: $serviceType = http://terminology.hl7.org/CodeSystem/service-type
 
 //Parameters
 Alias: $observation-de-vitalsign-herzfrequenz = http://fhir.de/StructureDefinition/observation-de-vitalsign-herzfrequenz
-Alias: $ISiKHerzfrequenzSCTVS = https://gematik.de/fhir/isik/ValueSet/ISiKHerzfrequenzSCTVS
+// NOTE: The ISiK*SCTVS ValueSets below were removed in ISiK Vitalparameter 6.0.0. They are unused and kept only for reference.
+//Alias: $ISiKHerzfrequenzSCTVS = https://gematik.de/fhir/isik/ValueSet/ISiKHerzfrequenzSCTVS
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 
 Alias: $observation-de-vitalsign-koerpergewicht = http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht
-Alias: $ISiKKoerpergewichtSCTVS = https://gematik.de/fhir/isik/ValueSet/ISiKKoerpergewichtSCTVS
+//Alias: $ISiKKoerpergewichtSCTVS = https://gematik.de/fhir/isik/ValueSet/ISiKKoerpergewichtSCTVS
 Alias: $unitsofmeasure = http://unitsofmeasure.org
 
 Alias: $observation-de-vitalsign-atemfrequenz = http://fhir.de/StructureDefinition/observation-de-vitalsign-atemfrequenz
 
 Alias: $observation-de-vitalsign-koerpertemperatur = http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpertemperatur
-Alias: $ISiKKoerpertemperaturSCTVS = https://gematik.de/fhir/isik/ValueSet/ISiKKoerpertemperaturSCTVS
+//Alias: $ISiKKoerpertemperaturSCTVS = https://gematik.de/fhir/isik/ValueSet/ISiKKoerpertemperaturSCTVS
 
 Alias: $Laborgruppe = http://exmple.org/fhir/sid/Laborgruppe
 Alias: $v3-ObservationInterpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation

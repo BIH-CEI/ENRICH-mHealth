@@ -1,8 +1,8 @@
-Profile: UTNHerzfrequenz
+Profile: ENRICHHerzfrequenz
 Parent: ISiKHerzfrequenz
 Id: isik-herzfrequenz
-Title: "UTN Observation Heart rate Profile"
-Description: "Profile for documenting Herzfrequenz observations within UTN."
+Title: "ENRICH-mHealth Observation Heart rate Profile"
+Description: "Profile for documenting Herzfrequenz observations within ENRICH-mHealth."
 
 * status MS
 * category MS
@@ -12,10 +12,11 @@ Description: "Profile for documenting Herzfrequenz observations within UTN."
 * effective[x] MS
 * performer MS
 * value[x] MS
-* value[x].value MS
-* value[x].unit MS
-* value[x].system MS
-* value[x].code MS
+* valueQuantity MS
+* valueQuantity.value MS
+* valueQuantity.unit MS
+* valueQuantity.system MS
+* valueQuantity.code MS
 * dataAbsentReason MS
 
 * method MS

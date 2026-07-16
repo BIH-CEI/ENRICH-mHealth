@@ -1,14 +1,19 @@
 name: Build IG after a push
 
-on: 
+on:
   push:
-    branches: [dev , main]
+    branches: [dev, main]
   workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
   id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -17,7 +22,71 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Run updatePublisher
-        run: bash ./_updatePublisher.sh
-      - name: Run genonce
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install SUSHI
+        run: npm install -g fsh-sushi
+
+      - name: Set up Ruby and Jekyll
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+      - name: Install Jekyll
+        run: gem install jekyll bundler
+
+      # ISiK Vitalparameter 6.0.0-rc is not published to a FHIR package registry yet,
+      # so install the release candidate from gematik into the FHIR package cache.
+      - name: Install ISiK Vitalparameter 6.0.0-rc into FHIR package cache
+        run: |
+          set -euo pipefail
+          DEST="$HOME/.fhir/packages/de.gematik.isik-vitalparameter#6.0.0-rc"
+          mkdir -p "$DEST"
+          curl -sSfL -o /tmp/isik-vp.tgz https://gemspec.gematik.de/ig/fhir/isik/vitalparameter/6.0.0-rc/package.tgz
+          tar -xzf /tmp/isik-vp.tgz -C "$DEST"
+          python3 - "$DEST/package/package.json" <<'PY'
+          import json, sys
+          p = sys.argv[1]
+          d = json.load(open(p, encoding="utf-8"))
+          d["name"] = "de.gematik.isik-vitalparameter"
+          json.dump(d, open(p, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+          print("installed", d["name"], d["version"])
+          PY
+
+      - name: Download IG Publisher
+        run: |
+          set -euo pipefail
+          mkdir -p input-cache
+          curl -sSfL -o input-cache/publisher.jar \
+            https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar
+
+      - name: Build IG
         run: bash ./_genonce.sh
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./output"
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,8 +1,8 @@
-Profile: UTNAtemfrequenz
+Profile: ENRICHAtemfrequenz
 Parent: ISiKAtemfrequenz
-Id: utn-isik-atemfrequenz
-Title: "UTN Observation Atemfrequenz Profile"
-Description: "Profile for documenting Atemfrequenz observations within UTN."
+Id: enrich-mhealth-isik-atemfrequenz
+Title: "ENRICH-mHealth Observation Atemfrequenz Profile"
+Description: "Profile for documenting Atemfrequenz observations within ENRICH-mHealth."
 
 * status MS
 * category MS

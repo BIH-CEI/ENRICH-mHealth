@@ -1,0 +1,699 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "bih-cei.enrich-mhealth",
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/ImplementationGuide/bih-cei.enrich-mhealth",
+  "version": "0.1.0",
+  "name": "ENRICHmHealthImplementationGuide",
+  "title": "ENRICH-mHealth FHIR Implementation Guide",
+  "status": "draft",
+  "publisher": "BIH at Charité - Core Unit Digital Medicine and Interoperability",
+  "contact": [
+    {
+      "name": "BIH at Charité - Core Unit Digital Medicine and Interoperability",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.bihealth.org/de/forschung/arbeitsgruppen/interoperabilitaet/home"
+        }
+      ]
+    },
+    {
+      "name": "Marco Schaarschmidt",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "marco.schaarschmidt@bih-charite.de",
+          "use": "work"
+        }
+      ]
+    },
+    {
+      "name": "Eduardo Salgado",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "eduardo.salgado@charite.de",
+          "use": "work"
+        }
+      ]
+    },
+    {
+      "name": "Margaux Gatrio",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "margaux.gatrio@bih-charite.de",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "packageId": "bih-cei.enrich-mhealth",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.us.core",
+      "version": "3.1.0",
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "id": "hl7_fhir_us_core"
+    },
+    {
+      "id": "mcode",
+      "packageId": "hl7.fhir.us.mcode",
+      "uri": "http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode",
+      "version": "1.0.0"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.consent",
+      "uri": "de.medizininformatikinitiative.kerndatensatz.consent",
+      "version": "2025.0.4",
+      "id": "de_medizininformatikinitiative_kerndatensatz_consent"
+    },
+    {
+      "packageId": "de.einwilligungsmanagement",
+      "uri": "de.einwilligungsmanagement",
+      "version": "1.0.1",
+      "id": "de_einwilligungsmanagement"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.icu",
+      "uri": "de.medizininformatikinitiative.kerndatensatz.icu",
+      "version": "2025.0.4",
+      "id": "de_medizininformatikinitiative_kerndatensatz_icu"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.laborbefund",
+      "uri": "de.medizininformatikinitiative.kerndatensatz.laborbefund",
+      "version": "2025.0.2",
+      "id": "de_medizininformatikinitiative_kerndatensatz_laborbefund"
+    },
+    {
+      "packageId": "de.gematik.isik-vitalparameter",
+      "uri": "de.gematik.isik-vitalparameter",
+      "version": "6.0.0-rc",
+      "id": "de_gematik_isik_vitalparameter"
+    },
+    {
+      "packageId": "de.gematik.isik-basismodul",
+      "uri": "de.gematik.isik-basismodul",
+      "version": "4.0.3",
+      "id": "de_gematik_isik_basismodul"
+    },
+    {
+      "packageId": "kbv.basis",
+      "uri": "kbv.basis",
+      "version": "1.7.0",
+      "id": "kbv_basis"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.fall",
+      "uri": "de.medizininformatikinitiative.kerndatensatz.fall",
+      "version": "2025.0.0",
+      "id": "de_medizininformatikinitiative_kerndatensatz_fall"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.medikation",
+      "uri": "de.medizininformatikinitiative.kerndatensatz.medikation",
+      "version": "2025.0.0",
+      "id": "de_medizininformatikinitiative_kerndatensatz_medikation"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.prozedur",
+      "uri": "de.medizininformatikinitiative.kerndatensatz.prozedur",
+      "version": "2025.0.0",
+      "id": "de_medizininformatikinitiative_kerndatensatz_prozedur"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/composition-basedon-servicerequest"
+        },
+        "name": "Composition BasedOn ServiceRequest",
+        "description": "Links a Composition to the ServiceRequest it is based on.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Encounter/Example-ENRICH-Encounter-PTtoPR"
+        },
+        "name": "Encounter 1",
+        "description": "Encounter which is between patient to practitioner",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-encounter"
+      },
+      {
+        "reference": {
+          "reference": "Encounter/Example-ENRICH-Encounter-PRtoPR"
+        },
+        "name": "Encounter 2",
+        "description": "Encounter which is between practitioner to practitioner",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-encounter"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-device-metric"
+        },
+        "name": "ENRICH-mHealth Device Metric (Sensor Type and Calibration Status)",
+        "description": "Profile for a single metric/sensor of an ENRICH-mHealth Personal Health Device, capturing the sensor type (IEEE 11073 MDC) and its calibration status. Multiple sensors reference one device via `source` (e.g. a smartwatch reporting both pulse and SpO2). Modeled after the gematik HDDT `hddt-sensor-type-and-calibration-status` (DeviceMetric).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-encounter"
+        },
+        "name": "ENRICH-mHealth Encounter",
+        "description": "This is the profile of Enocunter within ENRICH-mHealth",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/healthcare-service"
+        },
+        "name": "ENRICH-mHealth Healthcare Service with Devices",
+        "description": "A profile for HealthcareService to include references to non-medical devices used in teleconsultation.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-kreatinin"
+        },
+        "name": "ENRICH-mHealth Laboruntersuchung-Kreatinin",
+        "description": "Profile for documenting Creatinin within ENRICH-mHealth.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-observation-arterieller-blutdruck"
+        },
+        "name": "ENRICH-mHealth Observation Arterieller Blutdruck",
+        "description": "Profile for documenting systemic arterial blood pressure observations within ENRICH-mHealth. Based on ISiKBlutdruckSystemischArteriell (ISiK Vitalparameter 6.0.0).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-isik-atemfrequenz"
+        },
+        "name": "ENRICH-mHealth Observation Atemfrequenz Profile",
+        "description": "Profile for documenting Atemfrequenz observations within ENRICH-mHealth.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-isik-ekg"
+        },
+        "name": "ENRICH-mHealth Observation EKG Profile",
+        "description": "Profile for documenting electrocardiogram (EKG/ECG) observations within ENRICH-mHealth. Based on ISiKEKG (ISiK Vitalparameter 6.0.0). Supports wearable single-/multi-lead ECG via SampledData components.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-isik-gcs"
+        },
+        "name": "ENRICH-mHealth Observation Glasgow Coma Scale (GCS) Profile",
+        "description": "Profile for documenting the Glasgow Coma Scale (GCS) total score and its eye/verbal/motor sub-scores within ENRICH-mHealth. Based on ISiKGCS (ISiK Vitalparameter 6.0.0).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/isik-herzfrequenz"
+        },
+        "name": "ENRICH-mHealth Observation Heart rate Profile",
+        "description": "Profile for documenting Herzfrequenz observations within ENRICH-mHealth.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/isik-koerpergewicht"
+        },
+        "name": "ENRICH-mHealth Observation Koerpergewicht Profile",
+        "description": "Profile for documenting Koerpergewicht observations within ENRICH-mHealth.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-isik-koerpergroesse"
+        },
+        "name": "ENRICH-mHealth Observation Koerpergroesse Profile",
+        "description": "Profile for documenting body height observations within ENRICH-mHealth. Based on ISiKKoerpergroesse (ISiK Vitalparameter 6.0.0).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/isik-koerpertemperatur"
+        },
+        "name": "ENRICH-mHealth Observation Koerperkerntemperatur Profile",
+        "description": "Profile for documenting Koerperkerntemperatur observations within ENRICH-mHealth. Based on ISiKKoerperkerntemperatur (renamed from ISiKKoerpertemperatur in ISiK Vitalparameter 6.0.0).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-isik-kopfumfang"
+        },
+        "name": "ENRICH-mHealth Observation Kopfumfang Profile",
+        "description": "Profile for documenting head circumference observations within ENRICH-mHealth. Based on ISiKKopfumfang (ISiK Vitalparameter 6.0.0).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+        },
+        "name": "ENRICH-mHealth Observation Sauerstoffsaettigung (SpO2) Profile",
+        "description": "Profile for documenting arterial oxygen saturation (SpO2) observations within ENRICH-mHealth. Based on ISiKSauerstoffsaettigungArteriell (ISiK Vitalparameter 6.0.0).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-patient"
+        },
+        "name": "ENRICH-mHealth Patient",
+        "description": "The profile of the ENRICH Patient",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-personal-health-device"
+        },
+        "name": "ENRICH-mHealth Personal Health Device",
+        "description": "Profile for a personal health device (wearable / mHealth / IoT sensor, e.g. smartwatch, ring, patch, scale) that captures ENRICH-mHealth observations. Modeled after the gematik HDDT `hddt-personal-health-device` (Health Device Data Transfer, § 374a SGB V), adapted for the ENRICH research context: the BfARM/HIIS registry requirement of HDDT is intentionally NOT imposed, and manufacturer/type are captured to identify the wearable.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-procedure"
+        },
+        "name": "ENRICH-mHealth Procedure",
+        "description": "This profile explains a Prcedure in ENRICH",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/enrich-mhealth-service-request"
+        },
+        "name": "ENRICH-mHealth Teleconsultation Service Request",
+        "description": "This profile shows how to create service request for teleconsultation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-Arterieller-Blutdruck"
+        },
+        "name": "Example ENRICH Arterieller Blutdruck Observation",
+        "description": "Example instance for documenting systemic arterial blood pressure observations within ENRICH-mHealth (based on ISiKBlutdruckSystemischArteriell).",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-observation-arterieller-blutdruck"
+      },
+      {
+        "reference": {
+          "reference": "Condition/Example-ENRICH-Condition"
+        },
+        "name": "Example of Hypertonus Condition",
+        "description": "Represents a condition of systemic hypertension",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Device/Example-ENRICH-Device-Corsano"
+        },
+        "name": "Example-ENRICH-Device-Corsano",
+        "description": "Example wearable (Corsano CardioWatch 287-2) used to capture ENRICH-mHealth vital signs.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-personal-health-device"
+      },
+      {
+        "reference": {
+          "reference": "DeviceMetric/Example-ENRICH-DeviceMetric-SpO2"
+        },
+        "name": "Example-ENRICH-DeviceMetric-SpO2",
+        "description": "SpO2 sensor of the Corsano wearable, with its calibration status.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-device-metric"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-Koerpergroesse"
+        },
+        "name": "Example-ENRICH-Koerpergroesse",
+        "description": "An example Observation for body height (based on ISiKKoerpergroesse).",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-koerpergroesse"
+      },
+      {
+        "reference": {
+          "reference": "Patient/enrich-mhealth-patient-1"
+        },
+        "name": "Example-ENRICH-Patient",
+        "description": "Example ENRICH Patient 1",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-patient"
+      },
+      {
+        "reference": {
+          "reference": "Patient/enrich-mhealth-patient-2"
+        },
+        "name": "Example-ENRICH-Patient-2",
+        "description": "Example ENRICH Patient 2",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-patient"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICHAtemfrequenz"
+        },
+        "name": "Example-ENRICHAtemfrequenz",
+        "description": "An example Observation for respiratory rate using Atemfrequenz profile.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-atemfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICHEKG"
+        },
+        "name": "Example-ENRICHEKG",
+        "description": "An example Observation for a single-lead ECG recorded by a wearable, carrying the curve as SampledData.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-ekg"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICHGCS"
+        },
+        "name": "Example-ENRICHGCS",
+        "description": "An example Observation for a Glasgow Coma Scale (GCS) assessment with a total score of 15 and its eye/verbal/motor sub-scores.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-gcs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICHHerzfrequenz"
+        },
+        "name": "Example-ENRICHHerzfrequenz",
+        "description": "An example Observation for heart rate.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICHKoerpergewicht"
+        },
+        "name": "Example-ENRICHKoerpergewicht",
+        "description": "An example Observation for Body Weight.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-koerpergewicht"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICHKoerpertemperatur"
+        },
+        "name": "Example-ENRICHKoerpertemperatur",
+        "description": "An example Observation for body core temperature (based on ISiKKoerperkerntemperatur).",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-koerpertemperatur"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICHKopfumfang"
+        },
+        "name": "Example-ENRICHKopfumfang",
+        "description": "An example Observation for head circumference.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-kopfumfang"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICHKreatinin"
+        },
+        "name": "Example-ENRICHKreatinin",
+        "description": "An example Observation for Creatinin.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/mii-kreatinin"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICHSauerstoffsaettigung"
+        },
+        "name": "Example-ENRICHSauerstoffsaettigung",
+        "description": "An example Observation for arterial oxygen saturation (SpO2), e.g. measured by a wearable pulse oximeter.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/GRIDHAMDQuestionnaire"
+        },
+        "name": "GRID Hamilton Depression Rating Scale",
+        "description": "A structured clinical questionnaire for assessing depression severity.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/gridhamd-answer-options-cs"
+        },
+        "name": "GRID-HAMD Answer Options CodeSystem",
+        "description": "CodeSystem defining codes for all answer options used in GRID-HAMD Questionnaire.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q1"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q1 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q2"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q2 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q3"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q3 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q4"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q4 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q5"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q5 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q6"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q6 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q7"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q7 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q8"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q8 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q9"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q9 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q10"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q10 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q11"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q11 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q12"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q12 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q13"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q13 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q14"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q14 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q15"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q15 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q16"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q16 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/gridhamd-answer-options-vs-q17"
+        },
+        "name": "GRID-HAMD Answer Options ValueSet",
+        "description": "ValueSet including Q17 of the GRID-HAMD Questionnaire answer options.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "MedicationStatement/Example-ENRICH-MedikationStatement"
+        },
+        "name": "Ramipril",
+        "description": "The medication of the patient during the encounter of ICU",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Condition/Example-ENRICH-Sepsis"
+        },
+        "name": "Sepsis Condition",
+        "description": "Represents an active sepsis condition observed during an ICU encounter.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Composition/Example-ENRICH-Teleconsultation-PTtoPR"
+        },
+        "name": "Teleconsultation note between patient and practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Composition/Example-ENRICH-Teleconsultation-PRtoPR"
+        },
+        "name": "Teleconsultation note between practitioner and practitioner",
+        "description": "Teleconsultation note sent to practitioner as part of the Service Request",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Composition/Example-ENRICH-Teleconsultation-PRtoPR-Return"
+        },
+        "name": "Teleconsultation note between practitioner and practitioner",
+        "description": "Teleconsultation note sent back to practitioner based on the Service Request",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "ServiceRequest/ENRICH-Teleconsultation-PRtoPR-ServiceRequest"
+        },
+        "name": "Teleconsultation Request",
+        "description": "Request for a teleconsultation from practitioner to practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "HealthcareService/teleconsultation-service-charite"
+        },
+        "name": "Teleconsultation Service - Charité",
+        "description": "Teleconsultation service provided by Charité – Universitätsmedizin Berlin",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/healthcare-service"
+      },
+      {
+        "reference": {
+          "reference": "HealthcareService/teleconsultation-service-wuerzburg"
+        },
+        "name": "Teleconsultation Service - Uniklinik Würzburg",
+        "description": "Teleconsultation service provided by Universitätsklinikum Würzburg",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/healthcare-service"
+      },
+      {
+        "reference": {
+          "reference": "Procedure/Example-ENRICH-Procedure"
+        },
+        "name": "Ultrasound Procedure with Stone Outcome",
+        "description": "An example Procedure resource conforming to the MII profile where sonography reveals a stone.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-procedure"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "the_specification.html",
+          "title": "Specification",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles.html",
+          "title": "ENRICH-mHealth Profiles",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "instances.html",
+          "title": "ENRICH-mHealth Instances",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "scenario_depressionandanxiety.html",
+          "title": "Scenario Remote Assessment of Depression and Anxiety Severity",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "scenario_teleconsultation.html",
+          "title": "Scenario Teleconsultation",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2024+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

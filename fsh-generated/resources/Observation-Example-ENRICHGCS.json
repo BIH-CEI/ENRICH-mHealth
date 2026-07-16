@@ -1,0 +1,106 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-ENRICHGCS",
+  "meta": {
+    "profile": [
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-gcs"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "survey"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "9269-2",
+        "display": "Glasgow coma score total"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "248241002",
+        "display": "Glasgow coma scale (assessment scale)"
+      }
+    ],
+    "text": "Glasgow Coma Scale"
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9267-6",
+            "display": "Glasgow coma score eye opening"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "281395000",
+            "system": "http://snomed.info/sct",
+            "display": "Eyes open spontaneously"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9270-0",
+            "display": "Glasgow coma score verbal"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "163024005",
+            "system": "http://snomed.info/sct",
+            "display": "Oriented (finding)"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9268-4",
+            "display": "Glasgow coma score motor"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "247800000",
+            "system": "http://snomed.info/sct",
+            "display": "Obeys command"
+          }
+        ]
+      }
+    }
+  ],
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "code": "1",
+    "value": 15
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/PatientinMusterfrau"
+  },
+  "effectiveDateTime": "2020-10-11"
+}

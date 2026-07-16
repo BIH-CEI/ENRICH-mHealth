@@ -17,10 +17,10 @@
     <a href="the_specification.html">Implementer Guidance</a>
   </li>
   <li>
-    <a href="profiles.html">UTN Profiles</a>
+    <a href="profiles.html">ENRICH-mHealth Profiles</a>
   </li>
   <li>
-    <a href="instances.html">UTN Instances</a>
+    <a href="instances.html">ENRICH-mHealth Instances</a>
   </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Scenarios

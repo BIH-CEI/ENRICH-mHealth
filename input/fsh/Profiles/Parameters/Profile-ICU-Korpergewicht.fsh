@@ -1,8 +1,8 @@
-Profile: UTNKoerpergewicht
+Profile: ENRICHKoerpergewicht
 Parent: ISiKKoerpergewicht
 Id: isik-koerpergewicht
-Title: "UTN Observation Koerpergewicht Profile"
-Description: "Profile for documenting Koerpergewicht observations within UTN."
+Title: "ENRICH-mHealth Observation Koerpergewicht Profile"
+Description: "Profile for documenting Koerpergewicht observations within ENRICH-mHealth."
 
 * status MS
 * category MS
@@ -12,10 +12,11 @@ Description: "Profile for documenting Koerpergewicht observations within UTN."
 * effective[x] MS
 * performer MS
 * value[x] MS
-* value[x].value MS
-* value[x].unit MS
-* value[x].system MS
-* value[x].code MS
+* valueQuantity MS
+* valueQuantity.value MS
+* valueQuantity.unit MS
+* valueQuantity.system MS
+* valueQuantity.code MS
 * dataAbsentReason MS
 * method MS
 * device MS

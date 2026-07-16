@@ -1,0 +1,45 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-ENRICH-Koerpergroesse",
+  "meta": {
+    "profile": [
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-koerpergroesse"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8302-2",
+        "display": "Body height"
+      },
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "code": "188740",
+        "display": "MDC_LEN_BODY_ACTUAL"
+      }
+    ],
+    "text": "Körpergröße"
+  },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 180,
+    "code": "cm",
+    "unit": "centimeter"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/enrich-mhealth-patient-2"
+  },
+  "effectiveDateTime": "2020-10-11"
+}

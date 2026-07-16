@@ -1,7 +1,7 @@
-Profile: UTNServiceRequest
+Profile: ENRICHServiceRequest
 Parent: ServiceRequest
-Id: utn-service-request
-Title: "UTN Teleconsultation Service Request"
+Id: enrich-mhealth-service-request
+Title: "ENRICH-mHealth Teleconsultation Service Request"
 Description: "This profile shows how to create service request for teleconsultation"
 
 * status 1..1

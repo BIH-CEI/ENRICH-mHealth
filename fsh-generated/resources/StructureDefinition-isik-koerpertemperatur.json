@@ -1,16 +1,16 @@
 {
   "resourceType": "StructureDefinition",
   "id": "isik-koerpertemperatur",
-  "url": "https://www.utn-num.de/fhir/StructureDefinition/isik-koerpertemperatur",
-  "name": "UTNKoerperTemperatur",
-  "title": "UTN Observation Koerpertemperatur Profile",
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-koerpertemperatur",
+  "name": "ENRICHKoerperTemperatur",
+  "title": "ENRICH-mHealth Observation Koerperkerntemperatur Profile",
   "status": "draft",
-  "description": "Profile for documenting Koerpertemperatur observations within UTN.",
+  "description": "Profile for documenting Koerperkerntemperatur observations within ENRICH-mHealth. Based on ISiKKoerperkerntemperatur (renamed from ISiKKoerpertemperatur in ISiK Vitalparameter 6.0.0).",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpertemperatur",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerperkerntemperatur",
   "derivation": "constraint",
   "differential": {
     "element": [

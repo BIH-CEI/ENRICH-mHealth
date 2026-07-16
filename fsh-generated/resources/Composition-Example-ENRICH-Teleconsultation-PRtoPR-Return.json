@@ -1,0 +1,182 @@
+{
+  "resourceType": "Composition",
+  "id": "Example-ENRICH-Teleconsultation-PRtoPR-Return",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "11488-4",
+          "system": "http://loinc.org",
+          "display": "Consult Note"
+        }
+      ]
+    }
+  ],
+  "author": [
+    {
+      "reference": "Example-ENRICH-Practitioner-PR2"
+    }
+  ],
+  "section": [
+    {
+      "author": [
+        {
+          "reference": "Example-ENRICH-Practitioner-PR1"
+        }
+      ],
+      "entry": [
+        {
+          "reference": "Example-ENRICH-AllergyIntolerance"
+        },
+        {
+          "reference": "Observation/Example-ENRICHKoerpergewicht"
+        },
+        {
+          "reference": "Observation/Example-ENRICH-Koerpergroesse"
+        },
+        {
+          "reference": "Condition/Example-ENRICH-Sepsis"
+        }
+      ],
+      "title": "Aufnahme"
+    },
+    {
+      "author": [
+        {
+          "reference": "Example-ENRICH-Practitioner-PR1"
+        }
+      ],
+      "entry": [
+        {
+          "reference": "Condition/Example-ENRICH-Condition"
+        }
+      ],
+      "title": "Vorerkrankungen / Vor-OPs"
+    },
+    {
+      "author": [
+        {
+          "reference": "Example-ENRICH-Practitioner-PR1"
+        }
+      ],
+      "entry": [
+        {
+          "reference": "MedicationStatement/Example-ENRICH-MedikationStatement"
+        }
+      ],
+      "title": "Vormedikation"
+    },
+    {
+      "author": [
+        {
+          "reference": "Example-ENRICH-Practitioner-PR1"
+        }
+      ],
+      "entry": [
+        {
+          "reference": "Example-ENRICH-Invasive-Beatmung"
+        }
+      ],
+      "title": "Beatmung"
+    },
+    {
+      "author": [
+        {
+          "reference": "Example-ENRICH-Practitioner-PR1"
+        }
+      ],
+      "entry": [
+        {
+          "reference": "Example-ENRICH-VVECMO"
+        }
+      ],
+      "title": "Adjuvante Therapien"
+    },
+    {
+      "author": [
+        {
+          "reference": "Example-ENRICH-Practitioner-PR1"
+        }
+      ],
+      "entry": [
+        {
+          "reference": "Procedure/Example-ENRICH-Procedure"
+        }
+      ],
+      "title": "Diagnostik"
+    },
+    {
+      "author": [
+        {
+          "reference": "Example-ENRICH-Practitioner-PR1"
+        }
+      ],
+      "entry": [
+        {
+          "reference": "Observation/Example-ENRICHKreatinin"
+        }
+      ],
+      "title": "Labor"
+    },
+    {
+      "author": [
+        {
+          "reference": "Example-ENRICH-Practitioner-PR1"
+        }
+      ],
+      "entry": [
+        {
+          "reference": "Observation/Example-ENRICHAtemfrequenz"
+        },
+        {
+          "reference": "Observation/Example-ENRICHHerzfrequenz"
+        },
+        {
+          "reference": "Observation/Example-ENRICHKoerpertemperatur"
+        },
+        {
+          "reference": "Observation/Example-ENRICH-Arterieller-Blutdruck"
+        }
+      ],
+      "title": "Vital Parameter"
+    },
+    {
+      "author": [
+        {
+          "reference": "Example-ENRICH-Practitioner-PR2"
+        }
+      ],
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patient reports mild chest pain during exercise. No other symptoms reported. ECG normal. Advised lifestyle modification and follow-up in 1 month.</p></div>"
+      },
+      "title": "Teleconsultation Note"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://example.org/fhir/StructureDefinition/composition-basedon-servicerequest",
+      "valueReference": {
+        "reference": "ServiceRequest/ENRICH-Teleconsultation-PRtoPR-ServiceRequest"
+      }
+    }
+  ],
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "code": "85208-7",
+        "system": "http://loinc.org",
+        "display": "Telehealth Consult note"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/enrich-mhealth-patient-2"
+  },
+  "encounter": {
+    "reference": "Encounter/Example-ENRICH-Encounter-PRtoPR"
+  },
+  "date": "2012-01-04T09:10:14Z",
+  "title": "Consultation Note"
+}

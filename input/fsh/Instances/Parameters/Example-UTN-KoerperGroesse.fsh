@@ -1,11 +1,14 @@
-Instance: Example-UTN-Koerpergroesse
-InstanceOf: Observation
+Instance: Example-ENRICH-Koerpergroesse
+InstanceOf: ENRICHKoerpergroesse
 Usage: #example
-* meta.profile = "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/koerpergroesse"
+Description: "An example Observation for body height (based on ISiKKoerpergroesse)."
+
+* category[VSCat] = $observation-category#vital-signs
+* code.coding[loinc] = $loinc#8302-2 "Body height"
+* code.coding[IEEE11073] = urn:iso:std:iso:11073:10101#188740 "MDC_LEN_BODY_ACTUAL"
+* code.text = "Körpergröße"
+
 * status = #final
-* category = $observation-category#vital-signs
-* code.coding[0] = $loinc#8302-2 "Body height"
-* code.coding[+] = $sct#1153637007 "Body height (observable entity)"
-* code.coding[=].version = "http://snomed.info/sct/900000000000207008/version/20241101"
-* subject = Reference(Example-UTN-Patient-2)
+* subject = Reference(Example-ENRICH-Patient-2)
+* effectiveDateTime = "2020-10-11"
 * valueQuantity = 180 'cm' "centimeter"

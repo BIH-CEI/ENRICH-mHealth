@@ -1,5 +1,5 @@
-Instance: Example-UTNHerzfrequenz
-InstanceOf: UTNHerzfrequenz
+Instance: Example-ENRICHHerzfrequenz
+InstanceOf: ENRICHHerzfrequenz
 Usage: #example
 Description: "An example Observation for heart rate."
 

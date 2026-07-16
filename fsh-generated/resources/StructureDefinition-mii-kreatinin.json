@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
   "id": "mii-kreatinin",
-  "url": "https://www.utn-num.de/fhir/StructureDefinition/mii-kreatinin",
-  "name": "UTNKreatinin",
-  "title": "UTN Laboruntersuchung-Kreatinin",
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/mii-kreatinin",
+  "name": "ENRICHKreatinin",
+  "title": "ENRICH-mHealth Laboruntersuchung-Kreatinin",
   "status": "draft",
-  "description": "Profile for documenting Creatinin within UTN.",
+  "description": "Profile for documenting Creatinin within ENRICH-mHealth.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -21,6 +21,38 @@
           "strength": "preferred",
           "valueSet": "http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips"
         }
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity",
+        "path": "Observation.value[x]",
+        "sliceName": "valueQuantity",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.extension:pqTranslation",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+          }
+        ],
+        "path": "Observation.value[x].extension",
+        "sliceName": "pqTranslation"
+      },
+      {
+        "id": "Observation.value[x]:valueQuantity.value.extension:quantityPrecision",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "draft"
+          }
+        ],
+        "path": "Observation.value[x].value.extension",
+        "sliceName": "quantityPrecision"
       }
     ]
   }

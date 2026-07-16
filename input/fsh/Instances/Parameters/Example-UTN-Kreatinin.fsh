@@ -1,5 +1,5 @@
-Instance: Example-UTNKreatinin
-InstanceOf: UTNKreatinin
+Instance: Example-ENRICHKreatinin
+InstanceOf: ENRICHKreatinin
 Usage: #example
 Description: "An example Observation for Creatinin."
 * meta.profile = "https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab"
@@ -14,14 +14,14 @@ Description: "An example Observation for Creatinin."
 * category.coding[+] = $Laborgruppe#Niere/Elektrolyte
 * code = $loinc#59826-8 "Creatinine [Moles/volume] in Blood"
 * code.text = "Kreatinin"
-* subject = Reference(Example-UTN-Patient-2)
-* encounter = Reference(Example-UTN-Encounter-PRtoPR)
+* subject = Reference(Example-ENRICH-Patient-2)
+* encounter = Reference(Example-ENRICH-Encounter-PRtoPR)
 * effectiveDateTime = "2018-11-20T12:05:00+01:00"
 * effectiveDateTime.extension.url = "https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/QuelleKlinischesBezugsdatum"
 * effectiveDateTime.extension.valueCoding.version = "http://snomed.info/sct/900000000000207008/version/20230731"
 * effectiveDateTime.extension.valueCoding = $sct#399445004 "Specimen collection date (observable entity)"
 * issued = "2018-03-11T10:28:00+01:00"
-* performer = Reference(Example-UTN-Practitioner-PR1) "Zentrallabor des IKCL"
+* performer = Reference(Example-ENRICH-Practitioner-PR1) "Zentrallabor des IKCL"
 * valueQuantity.extension.url = "http://hl7.org/fhir/StructureDefinition/iso21090-PQ-translation"
 * valueQuantity.extension.valueQuantity = 0.81 'mg/dL' "mg/dL"
 * valueQuantity.value.extension.url = "http://hl7.org/fhir/StructureDefinition/quantity-precision"

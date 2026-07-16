@@ -1,0 +1,44 @@
+{
+  "resourceType": "Patient",
+  "id": "enrich-mhealth-patient-2",
+  "meta": {
+    "profile": [
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-patient"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://example.com",
+            "code": "MR"
+          }
+        ]
+      },
+      "system": "https://example.com",
+      "value": "67890"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Anna"
+      ],
+      "family": "Müller"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "Beispielweg 5"
+      ],
+      "type": "both",
+      "city": "Berlin",
+      "postalCode": "10115",
+      "country": "DE"
+    }
+  ],
+  "birthDate": "1985-03-12",
+  "gender": "female"
+}

@@ -1,5 +1,5 @@
-Instance: Example-UTN-HealthcareService-Charite
-InstanceOf: UTNHealthcareService
+Instance: Example-ENRICH-HealthcareService-Charite
+InstanceOf: ENRICHHealthcareService
 Title: "Teleconsultation Service - Charité"
 Description: "Teleconsultation service provided by Charité – Universitätsmedizin Berlin"
 
@@ -23,8 +23,8 @@ Description: "Teleconsultation service provided by Charité – Universitätsmed
 * location.display = "Charité Campus Mitte"
 
 
-Instance: Example-UTN-Teleconsultation-Service-Wuerzburg
-InstanceOf: UTNHealthcareService
+Instance: Example-ENRICH-Teleconsultation-Service-Wuerzburg
+InstanceOf: ENRICHHealthcareService
 Title: "Teleconsultation Service - Uniklinik Würzburg"
 Description: "Teleconsultation service provided by Universitätsklinikum Würzburg"
 

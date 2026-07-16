@@ -1,8 +1,8 @@
-Profile: UTN-Encounter
+Profile: ENRICH-Encounter
 Parent: MII_PR_Fall_KontaktGesundheitseinrichtung
-Id: utn-encounter
-Title: "UTN Encounter"
-Description: "This is the profile of Enocunter within UTN"
+Id: enrich-mhealth-encounter
+Title: "ENRICH-mHealth Encounter"
+Description: "This is the profile of Enocunter within ENRICH-mHealth"
 
 * id MS
 * meta MS

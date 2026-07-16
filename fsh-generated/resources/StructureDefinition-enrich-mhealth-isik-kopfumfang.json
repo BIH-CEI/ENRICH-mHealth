@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "enrich-mhealth-isik-kopfumfang",
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-kopfumfang",
+  "name": "ENRICHKopfumfang",
+  "title": "ENRICH-mHealth Observation Kopfumfang Profile",
+  "status": "draft",
+  "description": "Profile for documenting head circumference observations within ENRICH-mHealth. Based on ISiKKopfumfang (ISiK Vitalparameter 6.0.0).",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKopfumfang",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation"
+      }
+    ]
+  }
+}

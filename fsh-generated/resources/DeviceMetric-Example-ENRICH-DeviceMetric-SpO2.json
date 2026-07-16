@@ -1,0 +1,39 @@
+{
+  "resourceType": "DeviceMetric",
+  "id": "Example-ENRICH-DeviceMetric-SpO2",
+  "meta": {
+    "profile": [
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-device-metric"
+    ]
+  },
+  "calibration": [
+    {
+      "type": "two-point",
+      "state": "calibrated",
+      "time": "2020-10-11T09:00:00Z"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "150456",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_PULS_OXIM_SAT_O2"
+      }
+    ]
+  },
+  "category": "measurement",
+  "operationalStatus": "on",
+  "unit": {
+    "coding": [
+      {
+        "code": "%",
+        "system": "http://unitsofmeasure.org",
+        "display": "%"
+      }
+    ]
+  },
+  "source": {
+    "reference": "Device/Example-ENRICH-Device-Corsano"
+  }
+}

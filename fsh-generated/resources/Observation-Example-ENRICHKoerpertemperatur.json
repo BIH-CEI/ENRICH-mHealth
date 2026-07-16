@@ -1,0 +1,50 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-ENRICHKoerpertemperatur",
+  "meta": {
+    "profile": [
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-koerpertemperatur"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8310-5",
+        "display": "Body temperature"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "8329-5",
+        "display": "Body temperature - Core"
+      },
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "code": "150364",
+        "display": "MDC_TEMP_BODY"
+      }
+    ],
+    "text": "Körperkerntemperatur"
+  },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "code": "Cel",
+    "value": 36.8,
+    "unit": "°C"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/PatientinMusterfrau"
+  },
+  "effectiveDateTime": "2020-10-11"
+}

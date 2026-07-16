@@ -1,5 +1,5 @@
-# UTN Consent Profile
-This repository consists of the UTN Consent Profile for Forschungsvorhaben and Videosprechstunde. The generated profiles can be found under the provenance.
+# ENRICH-mHealth Implementation Guide
+This repository contains the ENRICH-mHealth FHIR Implementation Guide, derived from the UTN Implementation Guide. It provides ISiK Vitalparameter-based vital sign / wearable observation profiles as well as Consent profiles for Forschungsvorhaben and Videosprechstunde.
 ## Package Dependencies
 ### FSH
 Add the following depepndencies within .sushi-config.yaml file. These packages add the MII Consent Modul 

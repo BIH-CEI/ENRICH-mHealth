@@ -1,9 +1,9 @@
-Instance: Example-UTN-Patient
-InstanceOf: UTNPatient
+Instance: Example-ENRICH-Patient
+InstanceOf: ENRICHPatient
 Usage: #example
-Description: "Example UTN Patient 1"
+Description: "Example ENRICH Patient 1"
 
-* id = "utn-patient-1"
+* id = "enrich-mhealth-patient-1"
 * identifier.type.coding[0].system = "https://example.com"
 * identifier.type.coding[0].code = #MR
 * identifier.system = "https://example.com"
@@ -18,12 +18,12 @@ Description: "Example UTN Patient 1"
 * birthDate = "1970-09-19"
 * gender = #other
 
-Instance: Example-UTN-Patient-2
-InstanceOf: UTNPatient
+Instance: Example-ENRICH-Patient-2
+InstanceOf: ENRICHPatient
 Usage: #example
-Description: "Example UTN Patient 2"
+Description: "Example ENRICH Patient 2"
 
-* id = "utn-patient-2"
+* id = "enrich-mhealth-patient-2"
 * identifier.type.coding[0].system = "https://example.com"
 * identifier.type.coding[0].code = #MR
 * identifier.system = "https://example.com"

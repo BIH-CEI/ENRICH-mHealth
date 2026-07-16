@@ -1,0 +1,43 @@
+{
+  "resourceType": "Device",
+  "id": "Example-ENRICH-Device-Corsano",
+  "meta": {
+    "profile": [
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-personal-health-device"
+    ]
+  },
+  "deviceName": [
+    {
+      "name": "CardioWatch 287-2",
+      "type": "manufacturer-name"
+    }
+  ],
+  "type": {
+    "text": "Wrist-worn multi-parameter wearable"
+  },
+  "version": [
+    {
+      "value": "2.1.0"
+    }
+  ],
+  "specialization": [
+    {
+      "systemType": {
+        "coding": [
+          {
+            "code": "528391",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "MDC_DEV_ANALY_SAT_O2_MDS"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "active",
+  "manufacturer": "Corsano Health",
+  "serialNumber": "CW287-000123",
+  "modelNumber": "287-2",
+  "patient": {
+    "reference": "Patient/enrich-mhealth-patient-2"
+  }
+}

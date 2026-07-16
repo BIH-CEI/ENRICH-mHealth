@@ -3,7 +3,7 @@
   "id": "teleconsultation-service-wuerzburg",
   "meta": {
     "profile": [
-      "https://www.utn-num.de/fhir/StructureDefinition/healthcare-service"
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/healthcare-service"
     ]
   },
   "identifier": [

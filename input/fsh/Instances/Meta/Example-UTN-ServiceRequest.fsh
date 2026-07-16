@@ -1,4 +1,4 @@
-Instance: UTN-Teleconsultation-PRtoPR-ServiceRequest
+Instance: ENRICH-Teleconsultation-PRtoPR-ServiceRequest
 InstanceOf: ServiceRequest
 Title: "Teleconsultation Request"
 Description: "Request for a teleconsultation from practitioner to practitioner"
@@ -13,9 +13,9 @@ Usage: #example
 
 
 
-* subject = Reference(Example-UTN-Patient)
-* encounter = Reference(Example-UTN-Encounter-PRtoPR)
-* requester = Reference(Example-UTN-Practitioner-PR1)
-* performer = Reference(Example-UTN-Practitioner-PR2)
+* subject = Reference(Example-ENRICH-Patient)
+* encounter = Reference(Example-ENRICH-Encounter-PRtoPR)
+* requester = Reference(Example-ENRICH-Practitioner-PR1)
+* performer = Reference(Example-ENRICH-Practitioner-PR2)
 
-* supportingInfo = Reference(Example-UTN-Teleconsultation-PRtoPR)
+* supportingInfo = Reference(Example-ENRICH-Teleconsultation-PRtoPR)

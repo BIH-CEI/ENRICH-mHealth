@@ -1,5 +1,5 @@
-Instance: Example-UTNAtemfrequenz
-InstanceOf: UTNAtemfrequenz
+Instance: Example-ENRICHAtemfrequenz
+InstanceOf: ENRICHAtemfrequenz
 Description: "An example Observation for respiratory rate using Atemfrequenz profile."
 Usage: #example
 

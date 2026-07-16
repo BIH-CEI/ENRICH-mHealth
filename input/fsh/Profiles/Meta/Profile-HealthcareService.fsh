@@ -1,7 +1,7 @@
-Profile: UTNHealthcareService
+Profile: ENRICHHealthcareService
 Parent: HealthcareService
 Id: healthcare-service
-Title: "UTN Healthcare Service with Devices"
+Title: "ENRICH-mHealth Healthcare Service with Devices"
 Description: "A profile for HealthcareService to include references to non-medical devices used in teleconsultation."
 
 * id 0..1

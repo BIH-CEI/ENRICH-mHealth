@@ -1,0 +1,62 @@
+{
+  "resourceType": "Encounter",
+  "id": "Example-ENRICH-Encounter-PRtoPR",
+  "meta": {
+    "profile": [
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-encounter"
+    ]
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "intensivstationaer",
+          "system": "http://fhir.de/ValueSet/kontaktart-de"
+        }
+      ]
+    }
+  ],
+  "serviceType": {
+    "coding": [
+      {
+        "system": "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel",
+        "code": "3600"
+      }
+    ]
+  },
+  "period": {
+    "start": "2025-01-14T08:00:00+10:00"
+  },
+  "diagnosis": [
+    {
+      "condition": {
+        "reference": "Condition/Example-ENRICH-Sepsis"
+      },
+      "use": {
+        "coding": [
+          {
+            "code": "AD",
+            "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+            "display": "Admission diagnosis"
+          }
+        ]
+      }
+    }
+  ],
+  "participant": [
+    {
+      "individual": {
+        "reference": "Example-ENRICH-Practitioner-PR1"
+      }
+    }
+  ],
+  "status": "in-progress",
+  "class": {
+    "code": "IMP",
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "display": "inpatient encounter"
+  },
+  "subject": {
+    "reference": "Patient/enrich-mhealth-patient-2"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "enrich-mhealth-device-metric",
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-device-metric",
+  "name": "ENRICHDeviceMetric",
+  "title": "ENRICH-mHealth Device Metric (Sensor Type and Calibration Status)",
+  "status": "draft",
+  "description": "Profile for a single metric/sensor of an ENRICH-mHealth Personal Health Device, capturing the sensor type (IEEE 11073 MDC) and its calibration status. Multiple sensors reference one device via `source` (e.g. a smartwatch reporting both pulse and SpO2). Modeled after the gematik HDDT `hddt-sensor-type-and-calibration-status` (DeviceMetric).",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "DeviceMetric",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DeviceMetric",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DeviceMetric.type",
+        "path": "DeviceMetric.type",
+        "mustSupport": true
+      },
+      {
+        "id": "DeviceMetric.unit",
+        "path": "DeviceMetric.unit",
+        "mustSupport": true
+      },
+      {
+        "id": "DeviceMetric.source",
+        "path": "DeviceMetric.source",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-personal-health-device"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "DeviceMetric.parent",
+        "path": "DeviceMetric.parent",
+        "mustSupport": true
+      },
+      {
+        "id": "DeviceMetric.operationalStatus",
+        "path": "DeviceMetric.operationalStatus",
+        "mustSupport": true
+      },
+      {
+        "id": "DeviceMetric.category",
+        "path": "DeviceMetric.category",
+        "mustSupport": true
+      },
+      {
+        "id": "DeviceMetric.calibration",
+        "path": "DeviceMetric.calibration",
+        "mustSupport": true
+      },
+      {
+        "id": "DeviceMetric.calibration.type",
+        "path": "DeviceMetric.calibration.type",
+        "mustSupport": true
+      },
+      {
+        "id": "DeviceMetric.calibration.state",
+        "path": "DeviceMetric.calibration.state",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "DeviceMetric.calibration.time",
+        "path": "DeviceMetric.calibration.time",
+        "mustSupport": true
+      }
+    ]
+  }
+}

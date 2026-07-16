@@ -1,4 +1,4 @@
-This page shows how the Teleconsultation is represented in the FHIR Format within the UTN Project. 
+This page shows how the Teleconsultation is represented in the FHIR Format within the ENRICH-mHealth Project. 
 
 ### Scenario Patient to Practitioner Teleconsultation
 
@@ -6,7 +6,7 @@ Patient to Practitioner consultation scenario shows that the clinical note can b
 
 |  Field(s) | Example Instance | 
 | --------- | ---------------- | 
-| UTN Teleconsultation Composition   | [`Composition`](Composition-Example-UTN-Teleconsultation-PTtoPR.html) | 
+| ENRICH-mHealth Teleconsultation Composition   | [`Composition`](Composition-Example-ENRICH-Teleconsultation-PTtoPR.html) | 
 
 
 {: .grid }
@@ -22,8 +22,8 @@ This scenario for the inpatient encounter in an ICU setting illustrates how a co
 
 |  Field(s) | Example Instance | 
 | --------- | ---------------- | 
-| Consultation Request from Charité to Würzburg     | [`Service Request`](ServiceRequest-UTN-Teleconsultation-PRtoPR-ServiceRequest.html) | 
-| Composition Back with Consultation Note      | [`Consultation Note`](Composition-Example-UTN-Teleconsultation-PRtoPR-Return.html) | 
+| Consultation Request from Charité to Würzburg     | [`Service Request`](ServiceRequest-ENRICH-Teleconsultation-PRtoPR-ServiceRequest.html) | 
+| Composition Back with Consultation Note      | [`Consultation Note`](Composition-Example-ENRICH-Teleconsultation-PRtoPR-Return.html) | 
 
 
 {% include img.html img="prtoprlogo.png" %}

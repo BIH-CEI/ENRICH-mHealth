@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "composition-basedon-servicerequest",
-  "url": "https://www.utn-num.de/fhir/StructureDefinition/composition-basedon-servicerequest",
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/composition-basedon-servicerequest",
   "name": "CompositionBasedOnServiceRequest",
   "title": "Composition BasedOn ServiceRequest",
   "status": "draft",
@@ -34,7 +34,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://www.utn-num.de/fhir/StructureDefinition/composition-basedon-servicerequest"
+        "fixedUri": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/composition-basedon-servicerequest"
       },
       {
         "id": "Extension.value[x]",

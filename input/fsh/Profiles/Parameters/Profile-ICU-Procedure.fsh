@@ -1,8 +1,8 @@
-Profile: UTN-Procedure
+Profile: ENRICH-Procedure
 Parent: MII_PR_Prozedur_Procedure
-Id: utn-procedure
-Title: "UTN Procedure"
-Description: "This profile explains a Prcedure in UTN"
+Id: enrich-mhealth-procedure
+Title: "ENRICH-mHealth Procedure"
+Description: "This profile explains a Prcedure in ENRICH"
 
 * id MS
 * meta MS

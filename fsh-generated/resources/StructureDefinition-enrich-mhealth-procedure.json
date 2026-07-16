@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "enrich-mhealth-procedure",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/spdx-license",
+            "code": "CC-BY-4.0",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-procedure",
+  "name": "ENRICH-Procedure",
+  "title": "ENRICH-mHealth Procedure",
+  "status": "draft",
+  "description": "This profile explains a Prcedure in ENRICH",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure",
+        "path": "Procedure"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "enrich-mhealth-observation-arterieller-blutdruck",
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-observation-arterieller-blutdruck",
+  "name": "ENRICH_Observation_Arterieller_Blutdruck",
+  "title": "ENRICH-mHealth Observation Arterieller Blutdruck",
+  "status": "draft",
+  "description": "Profile for documenting systemic arterial blood pressure observations within ENRICH-mHealth. Based on ISiKBlutdruckSystemischArteriell (ISiK Vitalparameter 6.0.0).",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruckSystemischArteriell",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation"
+      }
+    ]
+  }
+}

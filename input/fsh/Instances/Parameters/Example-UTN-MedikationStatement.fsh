@@ -2,7 +2,7 @@ Alias: $v3-ActReason = http://terminology.hl7.org/CodeSystem/v3-ActReason
 Alias: $standardterms = http://standardterms.edqm.eu
 Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc
 
-Instance: Example-UTN-MedikationStatement
+Instance: Example-ENRICH-MedikationStatement
 InstanceOf: MII_PR_Medikation_MedicationStatement
 Usage: #example
 Title: "Ramipril"
@@ -13,6 +13,6 @@ Description: "The medication of the patient during the encounter of ICU"
 
 * medicationCodeableConcept.coding = $atc#C09AA05
 * medicationCodeableConcept.text = "Ramipril"
-* subject = Reference(Example-UTN-Patient-2)
+* subject = Reference(Example-ENRICH-Patient-2)
 
 

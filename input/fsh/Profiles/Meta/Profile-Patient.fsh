@@ -1,8 +1,8 @@
-Profile: UTNPatient
+Profile: ENRICHPatient
 Parent: Patient
-Id: utn-patient
-Title: "UTN Patient"
-Description: "The profile of the UTN Patient"
+Id: enrich-mhealth-patient
+Title: "ENRICH-mHealth Patient"
+Description: "The profile of the ENRICH Patient"
 
 * identifier 1.. MS N
 * identifier.type 1.. MS N

@@ -1,8 +1,8 @@
 ### Profiles and Extensions
-To claim conformance to an UTN Profile, servers SHALL be able to populate all profile data elements that have a minimum cardinality >= 1 and/or flagged as Must Support as defined by that profile’s StructureDefinition.
+To claim conformance to an ENRICH-mHealth Profile, servers SHALL be able to populate all profile data elements that have a minimum cardinality >= 1 and/or flagged as Must Support as defined by that profile’s StructureDefinition.
 
 ### General Guidance
-This section outlines important definitions, interpretations, and requirements common to all UTN actors used in this guide. The conformance verbs - SHALL, SHOULD, MAY - used in this guide are defined in FHIR Conformance Rules.
+This section outlines important definitions, interpretations, and requirements common to all ENRICH-mHealth actors used in this guide. The conformance verbs - SHALL, SHOULD, MAY - used in this guide are defined in FHIR Conformance Rules.
 
 Given the general conformance requirements outlined above, this IG does not add any Must Support flags to its profiles. Fields that are used for exchange are all present in the differential view for each profile, documented in the data dictionary, and in the documentation for each profile.
 

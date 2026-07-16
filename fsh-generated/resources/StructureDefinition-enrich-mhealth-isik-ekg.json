@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "enrich-mhealth-isik-ekg",
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-ekg",
+  "name": "ENRICHEKG",
+  "title": "ENRICH-mHealth Observation EKG Profile",
+  "status": "draft",
+  "description": "Profile for documenting electrocardiogram (EKG/ECG) observations within ENRICH-mHealth. Based on ISiKEKG (ISiK Vitalparameter 6.0.0). Supports wearable single-/multi-lead ECG via SampledData components.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKEKG",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation"
+      }
+    ]
+  }
+}

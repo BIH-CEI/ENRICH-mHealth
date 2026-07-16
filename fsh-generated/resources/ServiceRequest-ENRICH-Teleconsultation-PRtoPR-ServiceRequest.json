@@ -1,0 +1,36 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "ENRICH-Teleconsultation-PRtoPR-ServiceRequest",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/servicerequest-category",
+          "code": "409063005",
+          "display": "Counselling"
+        }
+      ]
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Example-ENRICH-Practitioner-PR2"
+    }
+  ],
+  "supportingInfo": [
+    {
+      "reference": "Composition/Example-ENRICH-Teleconsultation-PRtoPR"
+    }
+  ],
+  "status": "active",
+  "intent": "order",
+  "subject": {
+    "reference": "Patient/enrich-mhealth-patient-1"
+  },
+  "encounter": {
+    "reference": "Encounter/Example-ENRICH-Encounter-PRtoPR"
+  },
+  "requester": {
+    "reference": "Example-ENRICH-Practitioner-PR1"
+  }
+}

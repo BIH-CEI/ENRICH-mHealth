@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "enrich-mhealth-isik-gcs",
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-gcs",
+  "name": "ENRICHGCS",
+  "title": "ENRICH-mHealth Observation Glasgow Coma Scale (GCS) Profile",
+  "status": "draft",
+  "description": "Profile for documenting the Glasgow Coma Scale (GCS) total score and its eye/verbal/motor sub-scores within ENRICH-mHealth. Based on ISiKGCS (ISiK Vitalparameter 6.0.0).",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation"
+      }
+    ]
+  }
+}

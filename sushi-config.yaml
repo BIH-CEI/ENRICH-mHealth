@@ -3,10 +3,10 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: num.utn
-canonical: "https://www.utn-num.de/fhir"
-name: UTN Telemedicine Implementation Guide
-title: University Telemedicine Network (UTN) FHIR Implementation Guide
+id: bih-cei.enrich-mhealth
+canonical: "https://www.bihealth.org/fhir/enrich-mhealth"
+name: ENRICHmHealthImplementationGuide
+title: ENRICH-mHealth FHIR Implementation Guide
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
 version: 0.1.0
@@ -19,7 +19,22 @@ publisher:
   name: BIH at Charité - Core Unit Digital Medicine and Interoperability
   url: https://www.bihealth.org/de/forschung/arbeitsgruppen/interoperabilitaet/home
   # email: test@example.org
-
+contact:
+  - name: Marco Schaarschmidt
+    telecom:
+      - system: email
+        value: marco.schaarschmidt@bih-charite.de
+        use: work
+  - name: Eduardo Salgado
+    telecom:
+      - system: email
+        value: eduardo.salgado@charite.de
+        use: work
+  - name: Margaux Gatrio
+    telecom:
+      - system: email
+        value: margaux.gatrio@bih-charite.de
+        use: work
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
@@ -49,7 +64,7 @@ dependencies:
   
   de.gematik.isik-vitalparameter:
     uri: de.gematik.isik-vitalparameter
-    version: 4.0.0
+    version: 6.0.0-rc
 
   de.gematik.isik-basismodul:
     uri: de.gematik.isik-basismodul
@@ -88,9 +103,9 @@ pages:
   the_specification.md:
     title: Specification
   profiles.md:
-    title: UTN Profiles
+    title: ENRICH-mHealth Profiles
   instances.md:
-    title: UTN Instances
+    title: ENRICH-mHealth Instances
   scenario_depressionandanxiety.md:
     title: Scenario Remote Assessment of Depression and Anxiety Severity
   scenario_teleconsultation.md: 
@@ -123,8 +138,8 @@ pages:
 menu:
   Home: index.html
   Implementer Guidance: the_specification.html
-  UTN Profiles: profiles.html
-  UTN Instances: instances.html
+  ENRICH-mHealth Profiles: profiles.html
+  ENRICH-mHealth Instances: instances.html
   Scenarios:
     Scenario Remote Assessment of Depression and Anxiety Severity : scenario_depressionandanxiety.html
     Scenario Teleconsultation: scenario_teleconsultation.html

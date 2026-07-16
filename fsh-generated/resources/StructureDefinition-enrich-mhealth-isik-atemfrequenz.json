@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "enrich-mhealth-isik-atemfrequenz",
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-atemfrequenz",
+  "name": "ENRICHAtemfrequenz",
+  "title": "ENRICH-mHealth Observation Atemfrequenz Profile",
+  "status": "draft",
+  "description": "Profile for documenting Atemfrequenz observations within ENRICH-mHealth.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAtemfrequenz",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation"
+      }
+    ]
+  }
+}

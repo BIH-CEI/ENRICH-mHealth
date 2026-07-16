@@ -1,0 +1,35 @@
+{
+  "resourceType": "Procedure",
+  "id": "Example-ENRICH-Procedure",
+  "meta": {
+    "profile": [
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-procedure"
+    ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "code": "16310003",
+        "system": "http://snomed.info/sct",
+        "display": "Ultrasonography"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/enrich-mhealth-patient-2"
+  },
+  "encounter": {
+    "reference": "Encounter/Example-ENRICH-Encounter-PRtoPR"
+  },
+  "performedDateTime": "2025-01-14T16:49:00+01:00",
+  "outcome": {
+    "coding": [
+      {
+        "code": "31054009",
+        "system": "http://snomed.info/sct",
+        "display": "Ureteric Stone"
+      }
+    ]
+  }
+}

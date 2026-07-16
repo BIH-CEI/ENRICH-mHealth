@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "healthcare-service",
-  "url": "https://www.utn-num.de/fhir/StructureDefinition/healthcare-service",
-  "name": "UTNHealthcareService",
-  "title": "UTN Healthcare Service with Devices",
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/healthcare-service",
+  "name": "ENRICHHealthcareService",
+  "title": "ENRICH-mHealth Healthcare Service with Devices",
   "status": "draft",
   "description": "A profile for HealthcareService to include references to non-medical devices used in teleconsultation.",
   "fhirVersion": "4.0.1",

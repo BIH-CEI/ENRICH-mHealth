@@ -1,4 +1,4 @@
-Instance: Example-UTN-Teleconsultation-PTtoPR
+Instance: Example-ENRICH-Teleconsultation-PTtoPR
 InstanceOf: Composition
 Usage: #example
 Title: "Teleconsultation note between patient and practitioner"
@@ -6,16 +6,16 @@ Title: "Teleconsultation note between patient and practitioner"
 * status = #final
 * type = $loinc#85208-7 "Telehealth Consult note"
 * category = $loinc#11488-4 "Consult Note"
-* subject = Reference(Example-UTN-Patient)
-* encounter = Reference(Example-UTN-Encounter-PTtoPR)
+* subject = Reference(Example-ENRICH-Patient)
+* encounter = Reference(Example-ENRICH-Encounter-PTtoPR)
 * date = "2012-01-04T09:10:14Z"
-* author = Reference(Example-UTN-Practitioner-PR1)
+* author = Reference(Example-ENRICH-Practitioner-PR1)
 * title = "Consultation Note"
 
 * section[+]
   * title = "Consultation Note Text"
   * code = $loinc#29545-1 "Physical findings Narrative"
-  * author = Reference(Example-UTN-Practitioner-PR1)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
   * text.status = #generated
   * text.div = """
   <div xmlns="http://www.w3.org/1999/xhtml">
@@ -26,7 +26,7 @@ Title: "Teleconsultation note between patient and practitioner"
 /////////////////////////////////////////////
 
 
-Instance: Example-UTN-Teleconsultation-PRtoPR
+Instance: Example-ENRICH-Teleconsultation-PRtoPR
 InstanceOf: Composition
 Usage: #example
 Title: "Teleconsultation note between practitioner and practitioner"
@@ -35,57 +35,57 @@ Description: "Teleconsultation note sent to practitioner as part of the Service 
 * status = #final
 * type = $loinc#85208-7 "Telehealth Consult note"
 * category = $loinc#11488-4 "Consult Note"
-* subject = Reference(Example-UTN-Patient-2)
-* encounter = Reference(Example-UTN-Encounter-PRtoPR)
+* subject = Reference(Example-ENRICH-Patient-2)
+* encounter = Reference(Example-ENRICH-Encounter-PRtoPR)
 * date = "2012-01-04T09:10:14Z"
-* author = Reference(Example-UTN-Practitioner-PR1)
+* author = Reference(Example-ENRICH-Practitioner-PR1)
 * title = "Consultation Note"
 
 * section[+]
   * title = "Aufnahme"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-AllergyIntolerance)
-  * entry[+] = Reference(Example-UTNKoerpergewicht)
-  * entry[+] = Reference(Example-UTN-Koerperroesse)
-  * entry[+] = Reference(Example-UTN-Sepsis)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICH-AllergyIntolerance)
+  * entry[+] = Reference(Example-ENRICHKoerpergewicht)
+  * entry[+] = Reference(Example-ENRICH-Koerperroesse)
+  * entry[+] = Reference(Example-ENRICH-Sepsis)
 
 * section[+]
   * title = "Vorerkrankungen / Vor-OPs"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-Condition)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICH-Condition)
 
 * section[+]
   * title = "Vormedikation"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-MedikationStatement)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICH-MedikationStatement)
 
 * section[+]
   * title = "Beatmung"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-Invasive-Beatmung)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICH-Invasive-Beatmung)
 
 * section[+]
   * title = "Adjuvante Therapien"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-VVECMO)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICH-VVECMO)
 
 * section[+]
   * title = "Diagnostik"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-Procedure)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICH-Procedure)
 
 * section[+]
   * title = "Labor"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTNKreatinin)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICHKreatinin)
 
 * section[+]
   * title = "Vital Parameter"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTNAtemfrequenz) 
-  * entry[+] = Reference(Example-UTNHerzfrequenz) 
-  * entry[+] = Reference(Example-UTNKoerpertemperatur) 
-  * entry[+] = Reference(Example-UTN-Arterieller-Blutdruck) 
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICHAtemfrequenz) 
+  * entry[+] = Reference(Example-ENRICHHerzfrequenz) 
+  * entry[+] = Reference(Example-ENRICHKoerpertemperatur) 
+  * entry[+] = Reference(Example-ENRICH-Arterieller-Blutdruck) 
   
 
 
@@ -98,7 +98,7 @@ Description: "Links a Composition to the ServiceRequest it is based on."
 * value[x] only Reference(ServiceRequest)
 * valueReference 1..1
 
-Instance: Example-UTN-Teleconsultation-PRtoPR-Return
+Instance: Example-ENRICH-Teleconsultation-PRtoPR-Return
 InstanceOf: Composition
 Usage: #example
 Title: "Teleconsultation note between practitioner and practitioner"
@@ -107,61 +107,61 @@ Description: "Teleconsultation note sent back to practitioner based on the Servi
 * status = #final
 * type = $loinc#85208-7 "Telehealth Consult note"
 * category = $loinc#11488-4 "Consult Note"
-* subject = Reference(Example-UTN-Patient-2)
-* encounter = Reference(Example-UTN-Encounter-PRtoPR)
+* subject = Reference(Example-ENRICH-Patient-2)
+* encounter = Reference(Example-ENRICH-Encounter-PRtoPR)
 * date = "2012-01-04T09:10:14Z"
-* author = Reference(Example-UTN-Practitioner-PR2)
+* author = Reference(Example-ENRICH-Practitioner-PR2)
 * title = "Consultation Note"
 
 * section[+]
   * title = "Aufnahme"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-AllergyIntolerance)
-  * entry[+] = Reference(Example-UTNKoerpergewicht)
-  * entry[+] = Reference(Example-UTN-Koerpergroesse)
-  * entry[+] = Reference(Example-UTN-Sepsis)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICH-AllergyIntolerance)
+  * entry[+] = Reference(Example-ENRICHKoerpergewicht)
+  * entry[+] = Reference(Example-ENRICH-Koerpergroesse)
+  * entry[+] = Reference(Example-ENRICH-Sepsis)
 
 * section[+]
   * title = "Vorerkrankungen / Vor-OPs"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-Condition)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICH-Condition)
 
 * section[+]
   * title = "Vormedikation"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-MedikationStatement)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICH-MedikationStatement)
 
 * section[+]
   * title = "Beatmung"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-Invasive-Beatmung)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICH-Invasive-Beatmung)
 
 * section[+]
   * title = "Adjuvante Therapien"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-VVECMO)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICH-VVECMO)
 
 * section[+]
   * title = "Diagnostik"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTN-Procedure)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICH-Procedure)
 
 * section[+]
   * title = "Labor"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTNKreatinin)
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICHKreatinin)
 
 * section[+]
   * title = "Vital Parameter"
-  * author = Reference(Example-UTN-Practitioner-PR1)
-  * entry[+] = Reference(Example-UTNAtemfrequenz) 
-  * entry[+] = Reference(Example-UTNHerzfrequenz) 
-  * entry[+] = Reference(Example-UTNKoerpertemperatur) 
-  * entry[+] = Reference(Example-UTN-Arterieller-Blutdruck) 
+  * author = Reference(Example-ENRICH-Practitioner-PR1)
+  * entry[+] = Reference(Example-ENRICHAtemfrequenz) 
+  * entry[+] = Reference(Example-ENRICHHerzfrequenz) 
+  * entry[+] = Reference(Example-ENRICHKoerpertemperatur) 
+  * entry[+] = Reference(Example-ENRICH-Arterieller-Blutdruck) 
 
 * section[+]
   * title = "Teleconsultation Note"
-  * author = Reference(Example-UTN-Practitioner-PR2)
+  * author = Reference(Example-ENRICH-Practitioner-PR2)
   * text.status = #generated
   * text.div = """
   <div xmlns="http://www.w3.org/1999/xhtml">
@@ -169,4 +169,4 @@ Description: "Teleconsultation note sent back to practitioner based on the Servi
   </div>
   """
 * extension[+].url = "http://example.org/fhir/StructureDefinition/composition-basedon-servicerequest"
-* extension[=].valueReference = Reference(UTN-Teleconsultation-PRtoPR-ServiceRequest)
+* extension[=].valueReference = Reference(ENRICH-Teleconsultation-PRtoPR-ServiceRequest)

@@ -1,8 +1,8 @@
-Profile: UTNKreatinin
+Profile: ENRICHKreatinin
 Parent: MII_PR_Labor_Laboruntersuchung
 Id: mii-kreatinin
-Title: "UTN Laboruntersuchung-Kreatinin"
-Description: "Profile for documenting Creatinin within UTN."
+Title: "ENRICH-mHealth Laboruntersuchung-Kreatinin"
+Description: "Profile for documenting Creatinin within ENRICH-mHealth."
 
 * id MS
 * meta MS

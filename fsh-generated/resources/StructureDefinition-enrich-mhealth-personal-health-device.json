@@ -1,0 +1,99 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "enrich-mhealth-personal-health-device",
+  "url": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-personal-health-device",
+  "name": "ENRICHPersonalHealthDevice",
+  "title": "ENRICH-mHealth Personal Health Device",
+  "status": "draft",
+  "description": "Profile for a personal health device (wearable / mHealth / IoT sensor, e.g. smartwatch, ring, patch, scale) that captures ENRICH-mHealth observations. Modeled after the gematik HDDT `hddt-personal-health-device` (Health Device Data Transfer, § 374a SGB V), adapted for the ENRICH research context: the BfARM/HIIS registry requirement of HDDT is intentionally NOT imposed, and manufacturer/type are captured to identify the wearable.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Device",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Device",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Device.identifier",
+        "path": "Device.identifier",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.status",
+        "path": "Device.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.manufacturer",
+        "path": "Device.manufacturer",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.expirationDate",
+        "path": "Device.expirationDate",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.serialNumber",
+        "path": "Device.serialNumber",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName",
+        "path": "Device.deviceName",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName.name",
+        "path": "Device.deviceName.name",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName.type",
+        "path": "Device.deviceName.type",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.modelNumber",
+        "path": "Device.modelNumber",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.type",
+        "path": "Device.type",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.specialization",
+        "path": "Device.specialization",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.specialization.systemType",
+        "path": "Device.specialization.systemType",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.specialization.version",
+        "path": "Device.specialization.version",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.version",
+        "path": "Device.version",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.version.value",
+        "path": "Device.version.value",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.patient",
+        "path": "Device.patient",
+        "mustSupport": true
+      }
+    ]
+  }
+}
