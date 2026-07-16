@@ -54,3 +54,5 @@ This page shows the all instances which are used in ENRICH-mHealth Project
 | ENRICH-mHealth Device Metric    | [`SpO2 Sensor & Calibration`](DeviceMetric-Example-ENRICH-DeviceMetric-SpO2.html) | 
 
 {: .grid }
+
+> The peri-operative wearable monitoring example (liver transplant patient, Withings ScanWatch 2) is described on its own page: [Scenario Liver Transplant Monitoring](scenario_livertransplant.html).

@@ -1,0 +1,44 @@
+{
+  "resourceType": "Patient",
+  "id": "enrich-mhealth-patient-livertx",
+  "meta": {
+    "profile": [
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-patient"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://example.com",
+            "code": "MR"
+          }
+        ]
+      },
+      "system": "https://example.com",
+      "value": "LTX-4501"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Thomas"
+      ],
+      "family": "Beispiel"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "Transplantweg 12"
+      ],
+      "type": "both",
+      "city": "Berlin",
+      "postalCode": "13353",
+      "country": "DE"
+    }
+  ],
+  "birthDate": "1981-04-10",
+  "gender": "male"
+}

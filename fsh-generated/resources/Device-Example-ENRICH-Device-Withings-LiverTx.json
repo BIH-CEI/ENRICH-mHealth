@@ -1,0 +1,30 @@
+{
+  "resourceType": "Device",
+  "id": "Example-ENRICH-Device-Withings-LiverTx",
+  "meta": {
+    "profile": [
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-personal-health-device"
+    ]
+  },
+  "deviceName": [
+    {
+      "name": "ScanWatch 2",
+      "type": "manufacturer-name"
+    }
+  ],
+  "type": {
+    "text": "Hybrid smartwatch (SpO2, heart rate, ECG, temperature)"
+  },
+  "version": [
+    {
+      "value": "2.0.0"
+    }
+  ],
+  "status": "active",
+  "manufacturer": "Withings",
+  "serialNumber": "SW2-LTX-004501",
+  "modelNumber": "ScanWatch 2",
+  "patient": {
+    "reference": "Patient/enrich-mhealth-patient-livertx"
+  }
+}

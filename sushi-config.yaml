@@ -108,8 +108,10 @@ pages:
     title: ENRICH-mHealth Instances
   scenario_depressionandanxiety.md:
     title: Scenario Remote Assessment of Depression and Anxiety Severity
-  scenario_teleconsultation.md: 
+  scenario_teleconsultation.md:
     title: Scenario Teleconsultation
+  scenario_livertransplant.md:
+    title: Scenario Liver Transplant Monitoring
 
 
 #
@@ -143,6 +145,7 @@ menu:
   Scenarios:
     Scenario Remote Assessment of Depression and Anxiety Severity : scenario_depressionandanxiety.html
     Scenario Teleconsultation: scenario_teleconsultation.html
+    Scenario Liver Transplant Monitoring: scenario_livertransplant.html
   FHIR Artifacts: artifacts.html
     
   

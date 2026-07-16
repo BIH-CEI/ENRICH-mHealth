@@ -1,0 +1,48 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-ENRICH-HR-LiverTx-Post-11",
+  "meta": {
+    "profile": [
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8867-4",
+        "display": "Heart rate"
+      },
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "code": "147842",
+        "display": "MDC_ECG_HEART_RATE"
+      }
+    ],
+    "text": "Herzfrequenz"
+  },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "code": "/min",
+    "value": 88,
+    "unit": "per minute"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/enrich-mhealth-patient-livertx"
+  },
+  "effectiveDateTime": "2026-03-05T12:00:00+01:00",
+  "device": {
+    "reference": "Device/Example-ENRICH-Device-Withings-LiverTx"
+  }
+}

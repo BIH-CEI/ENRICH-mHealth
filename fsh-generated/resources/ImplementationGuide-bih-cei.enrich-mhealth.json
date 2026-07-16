@@ -322,11 +322,915 @@
       },
       {
         "reference": {
+          "reference": "Device/Example-ENRICH-Device-Withings-LiverTx"
+        },
+        "name": "Example-ENRICH-Device-Withings-LiverTx",
+        "description": "Withings ScanWatch 2 issued to the liver transplant patient for peri-operative vital sign monitoring.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-personal-health-device"
+      },
+      {
+        "reference": {
           "reference": "DeviceMetric/Example-ENRICH-DeviceMetric-SpO2"
         },
         "name": "Example-ENRICH-DeviceMetric-SpO2",
         "description": "SpO2 sensor of the Corsano wearable, with its calibration status.",
         "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-device-metric"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-01"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-01",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 1/56 at 2026-03-03T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-02"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-02",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 2/56 at 2026-03-03T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-03"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-03",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 3/56 at 2026-03-03T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-04"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-04",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 4/56 at 2026-03-03T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-05"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-05",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 5/56 at 2026-03-04T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-06"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-06",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 6/56 at 2026-03-04T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-07"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-07",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 7/56 at 2026-03-04T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-08"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-08",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 8/56 at 2026-03-04T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-09"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-09",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 9/56 at 2026-03-05T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-10"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-10",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 10/56 at 2026-03-05T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-11"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-11",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 11/56 at 2026-03-05T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-12"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-12",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 12/56 at 2026-03-05T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-13"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-13",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 13/56 at 2026-03-06T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-14"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-14",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 14/56 at 2026-03-06T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-15"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-15",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 15/56 at 2026-03-06T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-16"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-16",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 16/56 at 2026-03-06T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-17"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-17",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 17/56 at 2026-03-07T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-18"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-18",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 18/56 at 2026-03-07T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-19"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-19",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 19/56 at 2026-03-07T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-20"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-20",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 20/56 at 2026-03-07T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-21"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-21",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 21/56 at 2026-03-08T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-22"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-22",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 22/56 at 2026-03-08T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-23"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-23",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 23/56 at 2026-03-08T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-24"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-24",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 24/56 at 2026-03-08T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-25"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-25",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 25/56 at 2026-03-09T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-26"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-26",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 26/56 at 2026-03-09T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-27"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-27",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 27/56 at 2026-03-09T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-28"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-28",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 28/56 at 2026-03-09T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-29"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-29",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 29/56 at 2026-03-10T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-30"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-30",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 30/56 at 2026-03-10T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-31"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-31",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 31/56 at 2026-03-10T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-32"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-32",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 32/56 at 2026-03-10T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-33"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-33",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 33/56 at 2026-03-11T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-34"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-34",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 34/56 at 2026-03-11T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-35"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-35",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 35/56 at 2026-03-11T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-36"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-36",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 36/56 at 2026-03-11T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-37"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-37",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 37/56 at 2026-03-12T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-38"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-38",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 38/56 at 2026-03-12T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-39"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-39",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 39/56 at 2026-03-12T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-40"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-40",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 40/56 at 2026-03-12T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-41"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-41",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 41/56 at 2026-03-13T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-42"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-42",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 42/56 at 2026-03-13T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-43"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-43",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 43/56 at 2026-03-13T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-44"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-44",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 44/56 at 2026-03-13T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-45"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-45",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 45/56 at 2026-03-14T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-46"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-46",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 46/56 at 2026-03-14T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-47"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-47",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 47/56 at 2026-03-14T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-48"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-48",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 48/56 at 2026-03-14T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-49"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-49",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 49/56 at 2026-03-15T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-50"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-50",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 50/56 at 2026-03-15T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-51"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-51",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 51/56 at 2026-03-15T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-52"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-52",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 52/56 at 2026-03-15T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-53"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-53",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 53/56 at 2026-03-16T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-54"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-54",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 54/56 at 2026-03-16T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-55"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-55",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 55/56 at 2026-03-16T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Post-56"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Post-56",
+        "description": "post-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 56/56 at 2026-03-16T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-01"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-01",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 1/56 at 2026-02-16T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-02"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-02",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 2/56 at 2026-02-16T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-03"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-03",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 3/56 at 2026-02-16T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-04"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-04",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 4/56 at 2026-02-16T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-05"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-05",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 5/56 at 2026-02-17T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-06"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-06",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 6/56 at 2026-02-17T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-07"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-07",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 7/56 at 2026-02-17T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-08"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-08",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 8/56 at 2026-02-17T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-09"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-09",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 9/56 at 2026-02-18T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-10"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-10",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 10/56 at 2026-02-18T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-11"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-11",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 11/56 at 2026-02-18T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-12"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-12",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 12/56 at 2026-02-18T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-13"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-13",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 13/56 at 2026-02-19T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-14"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-14",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 14/56 at 2026-02-19T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-15"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-15",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 15/56 at 2026-02-19T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-16"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-16",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 16/56 at 2026-02-19T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-17"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-17",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 17/56 at 2026-02-20T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-18"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-18",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 18/56 at 2026-02-20T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-19"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-19",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 19/56 at 2026-02-20T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-20"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-20",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 20/56 at 2026-02-20T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-21"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-21",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 21/56 at 2026-02-21T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-22"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-22",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 22/56 at 2026-02-21T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-23"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-23",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 23/56 at 2026-02-21T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-24"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-24",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 24/56 at 2026-02-21T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-25"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-25",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 25/56 at 2026-02-22T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-26"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-26",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 26/56 at 2026-02-22T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-27"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-27",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 27/56 at 2026-02-22T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-28"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-28",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 28/56 at 2026-02-22T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-29"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-29",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 29/56 at 2026-02-23T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-30"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-30",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 30/56 at 2026-02-23T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-31"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-31",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 31/56 at 2026-02-23T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-32"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-32",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 32/56 at 2026-02-23T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-33"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-33",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 33/56 at 2026-02-24T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-34"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-34",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 34/56 at 2026-02-24T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-35"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-35",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 35/56 at 2026-02-24T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-36"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-36",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 36/56 at 2026-02-24T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-37"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-37",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 37/56 at 2026-02-25T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-38"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-38",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 38/56 at 2026-02-25T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-39"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-39",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 39/56 at 2026-02-25T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-40"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-40",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 40/56 at 2026-02-25T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-41"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-41",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 41/56 at 2026-02-26T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-42"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-42",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 42/56 at 2026-02-26T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-43"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-43",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 43/56 at 2026-02-26T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-44"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-44",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 44/56 at 2026-02-26T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-45"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-45",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 45/56 at 2026-02-27T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-46"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-46",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 46/56 at 2026-02-27T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-47"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-47",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 47/56 at 2026-02-27T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-48"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-48",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 48/56 at 2026-02-27T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-49"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-49",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 49/56 at 2026-02-28T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-50"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-50",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 50/56 at 2026-02-28T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-51"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-51",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 51/56 at 2026-02-28T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-52"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-52",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 52/56 at 2026-02-28T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-53"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-53",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 53/56 at 2026-03-01T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-54"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-54",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 54/56 at 2026-03-01T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-55"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-55",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 55/56 at 2026-03-01T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-HR-LiverTx-Pre-56"
+        },
+        "name": "Example-ENRICH-HR-LiverTx-Pre-56",
+        "description": "pre-op heart rate (Withings ScanWatch 2), 6-hourly timepoint 56/56 at 2026-03-01T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/isik-herzfrequenz"
       },
       {
         "reference": {
@@ -351,6 +1255,910 @@
         "name": "Example-ENRICH-Patient-2",
         "description": "Example ENRICH Patient 2",
         "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-patient"
+      },
+      {
+        "reference": {
+          "reference": "Patient/enrich-mhealth-patient-livertx"
+        },
+        "name": "Example-ENRICH-Patient-LiverTx",
+        "description": "45-year-old male liver transplant patient (ENRICH-mHealth monitoring scenario).",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-patient"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-01"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-01",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 1/56 at 2026-03-03T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-02"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-02",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 2/56 at 2026-03-03T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-03"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-03",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 3/56 at 2026-03-03T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-04"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-04",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 4/56 at 2026-03-03T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-05"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-05",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 5/56 at 2026-03-04T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-06"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-06",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 6/56 at 2026-03-04T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-07"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-07",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 7/56 at 2026-03-04T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-08"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-08",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 8/56 at 2026-03-04T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-09"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-09",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 9/56 at 2026-03-05T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-10"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-10",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 10/56 at 2026-03-05T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-11"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-11",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 11/56 at 2026-03-05T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-12"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-12",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 12/56 at 2026-03-05T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-13"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-13",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 13/56 at 2026-03-06T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-14"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-14",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 14/56 at 2026-03-06T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-15"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-15",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 15/56 at 2026-03-06T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-16"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-16",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 16/56 at 2026-03-06T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-17"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-17",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 17/56 at 2026-03-07T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-18"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-18",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 18/56 at 2026-03-07T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-19"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-19",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 19/56 at 2026-03-07T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-20"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-20",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 20/56 at 2026-03-07T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-21"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-21",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 21/56 at 2026-03-08T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-22"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-22",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 22/56 at 2026-03-08T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-23"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-23",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 23/56 at 2026-03-08T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-24"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-24",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 24/56 at 2026-03-08T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-25"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-25",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 25/56 at 2026-03-09T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-26"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-26",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 26/56 at 2026-03-09T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-27"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-27",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 27/56 at 2026-03-09T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-28"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-28",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 28/56 at 2026-03-09T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-29"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-29",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 29/56 at 2026-03-10T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-30"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-30",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 30/56 at 2026-03-10T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-31"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-31",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 31/56 at 2026-03-10T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-32"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-32",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 32/56 at 2026-03-10T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-33"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-33",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 33/56 at 2026-03-11T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-34"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-34",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 34/56 at 2026-03-11T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-35"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-35",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 35/56 at 2026-03-11T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-36"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-36",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 36/56 at 2026-03-11T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-37"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-37",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 37/56 at 2026-03-12T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-38"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-38",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 38/56 at 2026-03-12T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-39"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-39",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 39/56 at 2026-03-12T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-40"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-40",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 40/56 at 2026-03-12T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-41"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-41",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 41/56 at 2026-03-13T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-42"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-42",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 42/56 at 2026-03-13T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-43"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-43",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 43/56 at 2026-03-13T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-44"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-44",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 44/56 at 2026-03-13T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-45"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-45",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 45/56 at 2026-03-14T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-46"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-46",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 46/56 at 2026-03-14T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-47"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-47",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 47/56 at 2026-03-14T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-48"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-48",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 48/56 at 2026-03-14T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-49"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-49",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 49/56 at 2026-03-15T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-50"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-50",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 50/56 at 2026-03-15T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-51"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-51",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 51/56 at 2026-03-15T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-52"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-52",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 52/56 at 2026-03-15T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-53"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-53",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 53/56 at 2026-03-16T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-54"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-54",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 54/56 at 2026-03-16T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-55"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-55",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 55/56 at 2026-03-16T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Post-56"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Post-56",
+        "description": "post-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 56/56 at 2026-03-16T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-01"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-01",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 1/56 at 2026-02-16T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-02"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-02",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 2/56 at 2026-02-16T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-03"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-03",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 3/56 at 2026-02-16T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-04"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-04",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 4/56 at 2026-02-16T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-05"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-05",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 5/56 at 2026-02-17T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-06"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-06",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 6/56 at 2026-02-17T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-07"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-07",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 7/56 at 2026-02-17T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-08"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-08",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 8/56 at 2026-02-17T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-09"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-09",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 9/56 at 2026-02-18T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-10"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-10",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 10/56 at 2026-02-18T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-11"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-11",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 11/56 at 2026-02-18T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-12"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-12",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 12/56 at 2026-02-18T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-13"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-13",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 13/56 at 2026-02-19T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-14"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-14",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 14/56 at 2026-02-19T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-15"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-15",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 15/56 at 2026-02-19T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-16"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-16",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 16/56 at 2026-02-19T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-17"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-17",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 17/56 at 2026-02-20T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-18"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-18",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 18/56 at 2026-02-20T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-19"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-19",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 19/56 at 2026-02-20T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-20"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-20",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 20/56 at 2026-02-20T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-21"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-21",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 21/56 at 2026-02-21T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-22"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-22",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 22/56 at 2026-02-21T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-23"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-23",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 23/56 at 2026-02-21T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-24"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-24",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 24/56 at 2026-02-21T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-25"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-25",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 25/56 at 2026-02-22T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-26"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-26",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 26/56 at 2026-02-22T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-27"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-27",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 27/56 at 2026-02-22T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-28"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-28",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 28/56 at 2026-02-22T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-29"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-29",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 29/56 at 2026-02-23T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-30"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-30",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 30/56 at 2026-02-23T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-31"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-31",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 31/56 at 2026-02-23T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-32"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-32",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 32/56 at 2026-02-23T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-33"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-33",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 33/56 at 2026-02-24T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-34"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-34",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 34/56 at 2026-02-24T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-35"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-35",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 35/56 at 2026-02-24T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-36"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-36",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 36/56 at 2026-02-24T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-37"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-37",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 37/56 at 2026-02-25T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-38"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-38",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 38/56 at 2026-02-25T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-39"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-39",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 39/56 at 2026-02-25T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-40"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-40",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 40/56 at 2026-02-25T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-41"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-41",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 41/56 at 2026-02-26T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-42"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-42",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 42/56 at 2026-02-26T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-43"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-43",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 43/56 at 2026-02-26T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-44"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-44",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 44/56 at 2026-02-26T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-45"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-45",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 45/56 at 2026-02-27T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-46"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-46",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 46/56 at 2026-02-27T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-47"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-47",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 47/56 at 2026-02-27T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-48"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-48",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 48/56 at 2026-02-27T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-49"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-49",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 49/56 at 2026-02-28T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-50"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-50",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 50/56 at 2026-02-28T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-51"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-51",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 51/56 at 2026-02-28T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-52"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-52",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 52/56 at 2026-02-28T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-53"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-53",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 53/56 at 2026-03-01T00:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-54"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-54",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 54/56 at 2026-03-01T06:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-55"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-55",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 55/56 at 2026-03-01T12:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Example-ENRICH-SpO2-LiverTx-Pre-56"
+        },
+        "name": "Example-ENRICH-SpO2-LiverTx-Pre-56",
+        "description": "pre-op SpO2 (Withings ScanWatch 2), 6-hourly timepoint 56/56 at 2026-03-01T18:00:00+01:00.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-isik-sauerstoffsaettigung"
       },
       {
         "reference": {
@@ -578,6 +2386,14 @@
       },
       {
         "reference": {
+          "reference": "Procedure/Example-ENRICH-Procedure-LiverTransplant"
+        },
+        "name": "Liver Transplantation",
+        "description": "Orthotopic liver transplantation performed on the ENRICH-mHealth monitoring patient.",
+        "exampleCanonical": "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-procedure"
+      },
+      {
+        "reference": {
           "reference": "MedicationStatement/Example-ENRICH-MedikationStatement"
         },
         "name": "Ramipril",
@@ -681,6 +2497,11 @@
         {
           "nameUrl": "scenario_teleconsultation.html",
           "title": "Scenario Teleconsultation",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "scenario_livertransplant.html",
+          "title": "Scenario Liver Transplant Monitoring",
           "generation": "markdown"
         }
       ]

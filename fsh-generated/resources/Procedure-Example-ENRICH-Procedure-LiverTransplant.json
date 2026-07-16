@@ -1,0 +1,23 @@
+{
+  "resourceType": "Procedure",
+  "id": "Example-ENRICH-Procedure-LiverTransplant",
+  "meta": {
+    "profile": [
+      "https://www.bihealth.org/fhir/enrich-mhealth/StructureDefinition/enrich-mhealth-procedure"
+    ]
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "code": "18027006",
+        "system": "http://snomed.info/sct",
+        "display": "Transplantation of liver"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/enrich-mhealth-patient-livertx"
+  },
+  "performedDateTime": "2026-03-02"
+}
